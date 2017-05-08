@@ -5,7 +5,7 @@ $( document ).ready(function() {
     responsiveClass:true,
     responsive:{
         0:{
-            items:1,
+            items:2,
             nav:true
         },
         600:{
@@ -19,7 +19,7 @@ $( document ).ready(function() {
         }
     }, 
 
-	navText:["<i class='icon-left-open-big'></i>","<i class='icon-right-open-big'></i>"]
+	navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
 	
 })
 });
